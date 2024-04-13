@@ -11,14 +11,20 @@ func main() {
 
 	cache.Add("c", "3")
 
+	cache.ToString()
+
 	lru := &strategy.Lru{}
 	cache.SetEvictionAlgo(lru)
 
 	cache.Add("d", "4")
 
+	cache.ToString()
+
 	fifo := &strategy.Fifo{}
 	cache.SetEvictionAlgo(fifo)
 
 	cache.Add("e", "5")
+
+	cache.ToString()
 
 }
