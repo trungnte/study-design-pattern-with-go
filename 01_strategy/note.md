@@ -31,3 +31,6 @@
     ![ILogger](img/ilogger.png)
 
     2. Driver Database
+
+
+Strategy dùng khi cần thay đổi các hành vi runtime và ngôn ngữ có hỗ trợ interface
